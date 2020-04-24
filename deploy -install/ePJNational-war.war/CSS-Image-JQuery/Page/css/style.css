@@ -1,0 +1,110 @@
+.pager
+{
+    float: inherit;
+    width: auto;
+    height: 38px;
+    padding: 0;
+    
+    
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+.pager div.short
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+.pager div.short input
+{
+    width: 40px;
+    height: 30px;
+    border: none;
+    margin-left: 2px;
+    float: right;
+}
+.pager ul
+{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: -5px;
+}
+.pager ul li
+{
+   text-align: center;
+    display: inline;
+    margin-left: 5px;
+}
+.pager ul li a
+{
+    text-decoration: none;
+    display: inline-table;
+    padding: 0;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    
+}
+
+.pager span
+{
+    padding-top: 6px;
+    margin-left: 6px;
+    color: White;
+    float: right;
+}
+.pager .btn
+{   height: 30px;
+    display: block;
+    width: 40px;
+    text-align: center;
+    float: right;
+    padding-right: 5px;
+    margin-right : 5px;
+    cursor: pointer;
+    background-color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.pager .disabled
+{
+    color: #A0A0A0 !important;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+/*green*/.green
+{
+    background-color: #FFFFFF;
+}
+.green.normal
+{
+    background-color: #E7EBEC;
+    color: #161616;
+    border: solid 1px #5f9000;
+}
+.green.active
+{
+    background-color: white;
+    color: #161616;
+    border: solid 1px #5f9000;
+}
+.pager.green.btn
+{
+    
+    background-color: #E7EBEC;
+    color: #161616;
+    border: solid 1px #E7EBEC;
+   
+}

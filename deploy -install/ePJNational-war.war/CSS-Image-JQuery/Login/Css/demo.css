@@ -1,0 +1,36 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+a {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+.body {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 40px;
+}
+.body-s {
+	max-width: 400px;
+}
+.headerbox{
+    width: 100%;
+    background: #088;
+}
+#logo{
+    margin-left: 50px;
+}
+#logo1{
+    margin-left: 5px;
+}
+@media screen and (max-width: 600px) {
+	.body {
+		padding: 20px;
+	}
+}

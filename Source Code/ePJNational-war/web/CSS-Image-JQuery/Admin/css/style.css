@@ -1,0 +1,106 @@
+.pager
+{
+    float: inherit;
+    width: auto;
+    height: 26px;
+    padding: 0;
+   
+   
+}
+.pager div.short
+{
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 80px;
+    width: 90px;
+    text-align: center;
+}
+.pager div.short input
+{
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin-left: 5px;
+    float: left;
+}
+.pager ul
+{
+
+    list-style: none;
+    float: right;
+    margin-right: 4px;
+}
+.pager ul li
+{
+    text-align: center;
+    display: inline;
+    margin-left: 2px;
+    width: 30px;
+}
+.pager ul li a
+{
+    display: inline-table;
+    text-decoration: none; 
+    width: 30px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.pager span
+{
+    height: 20px;
+    margin-left: 6px;
+    color: #161616;
+    float: right;
+}
+.pager .btn
+{   height: 30px;
+    display: block;
+    width: 30px;
+    text-align: center;
+    float :right;
+    padding-right: 5px;
+    margin-left: 3px;
+   
+    margin-right : 4px;
+    cursor: pointer;
+    background-color: white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.pager .disabled
+{
+    color: #A0A0A0 !important;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+/*green*/.green
+{
+    background-color: #FFFFFF;
+    height: 30px;
+}
+.green.normal
+{
+    background-color: #E7EBEC;
+    color: #161616;
+    border: solid 1px #5f9000;
+}
+.green.active
+{
+    background-color: snow;
+    color: #161616;
+    border: solid 1px #5f9000;
+}
+.pager.green.btn
+{
+    background-color: green;
+    color: #161616;
+    border: solid 1px #E7EBEC;
+   
+}
